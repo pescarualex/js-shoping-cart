@@ -12,82 +12,66 @@
 </head>
     <body>
 
-    <div id="columns">
-        <section id="side-menu">
-            <div id="categories">
-                <button class="side-menu-buttons" id="all-products">All Products</button>
-                <button class="side-menu-buttons" id="laptops">Laptops</button>
-                <button class="side-menu-buttons" id="phones">Phones</button>
-                <button class="side-menu-buttons" id="tablets">Tablets</button>
-                <button class="side-menu-buttons" id="accessories">Accessories</button>
-                <button class="side-menu-buttons" id="clothes">Clothes</button>
-                <button class="side-menu-buttons" id="shoes">Shoes</button>
-                <button class="side-menu-buttons" id="jewellery">Jewellery</button>
-                <button class="side-menu-buttons" id="sports">Sports</button>
-                <button class="side-menu-buttons" id="electronics">Electronics</button>
-                <button class="side-menu-buttons" id="furniture">Furniture</button>
-            </div>
-        </section>
-
-
-
-        <main class="main-container">
-            <nav id="navigation-panel">
-                <div id="left-side-items">
-                    <div id="logo">
-                        <a href="index.html" alt="logo">
-                            <img src="../images/shoping-cart-logo.png" alt="logo">
-                        </a>
-                        <p>Shoping Cart</p>
-                    </div>
-
-                    <div id="search-bar">
-                        <input type="text" placeholder="Search product">
-                        <button id="search-button">
-                            <img src="../images/search.png" alt="search">
-                        </button>
-                    </div>
+        <div id="columns">
+            <section id="side-menu">
+                <div id="categories">
+                    <button class="side-menu-buttons" id="all-products">All Products</button>
+                    <button class="side-menu-buttons" id="laptops">Laptops</button>
+                    <button class="side-menu-buttons" id="phones">Phones</button>
+                    <button class="side-menu-buttons" id="tablets">Tablets</button>
+                    <button class="side-menu-buttons" id="accessories">Accessories</button>
+                    <button class="side-menu-buttons" id="clothes">Clothes</button>
+                    <button class="side-menu-buttons" id="shoes">Shoes</button>
+                    <button class="side-menu-buttons" id="jewellery">Jewellery</button>
+                    <button class="side-menu-buttons" id="sports">Sports</button>
+                    <button class="side-menu-buttons" id="electronics">Electronics</button>
+                    <button class="side-menu-buttons" id="furniture">Furniture</button>
                 </div>
-                <div id="right-side-items">
-                    <div id="cart">
-                        <img src="../images/cart-icon.png" alt="cart">
-                        <span>0</span>
-                    </div>
-
-                    <div id="user">
-                        <img src="../images/user.png" alt="user">
-                    </div>
-                </div>
-            </nav>
-
-            <section id="products">
-
-                <div class="product">
-                    <div class="product-image">
-                        <img src="../images/product-1.jpg" alt="product">
-                    </div>
-                    <div class="product-info">
-                        <div class="product-title">
-                            <p>Product Name</p>
-                        </div>
-                        <div class="product-price">
-                            <span>$ 99.00</span>
-                        </div>
-                        <div class="product-description">
-                            <span>This is a very good laptop for watching movies.</span>
-                        </div>
-                    </div>
-                    <button class="add-to-cart">Add to Cart</button>
-                </div>
-
             </section>
-        </main>
-
-    </div>
 
 
 
+            <main class="main-container">
+                <nav id="navigation-panel">
+                    <div id="left-side-items">
+                        <div id="logo">
+                            <a href="index.html" alt="logo">
+                                <img src="../images/shoping-cart-logo.png" alt="logo">
+                            </a>
+                            <p>Shoping Cart</p>
+                        </div>
 
-        <script src="../scripts/index.js"></script>
+                        <div id="search-bar">
+                            <input type="text" placeholder="Search product">
+                            <button id="search-button">
+                                <img src="../images/search.png" alt="search">
+                            </button>
+                        </div>
+                    </div>
+                    <div id="right-side-items">
+                        <div id="cart">
+                            <a href="cart.html">
+                                <img src="../images/cart-icon.png" alt="cart">
+                                <span id="cart-count">0</span>
+                            </a>
+                        </div>
+
+                        <div id="user">
+                            <img src="../images/user.png" alt="user">
+                        </div>
+                    </div>
+                </nav>
+
+                <section id="products">
+
+                </section>
+            </main>
+        </div>
+
+
+
+
+        <script type="module" src="../scripts/index.js"></script>
+        <script type="module" src="../scripts/cart.js"></script>
     </body>
 </html>
